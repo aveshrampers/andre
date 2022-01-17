@@ -5,7 +5,6 @@ import { animateScroll as scroll } from 'react-scroll';
 import { ContactContainer, ContactLinkContainer, ContactLinkItems, ContactLinkTitle, ContactLinkWrapper, ContactWrap,ContactLink } from './ContactUsElements';
 
 const Contact = () => {
-    scroll.scrollToTop();
     
   return (
     <ContactContainer id="contact">
